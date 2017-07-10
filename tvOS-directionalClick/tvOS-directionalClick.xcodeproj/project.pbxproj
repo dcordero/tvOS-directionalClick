@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF81338D1F135A3000AADE86 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF81338C1F135A3000AADE86 /* AppDelegate.swift */; };
+		FF81338F1F135A3000AADE86 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF81338E1F135A3000AADE86 /* ViewController.swift */; };
+		FF8133921F135A3000AADE86 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF8133901F135A3000AADE86 /* Main.storyboard */; };
+		FF8133941F135A3000AADE86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF8133931F135A3000AADE86 /* Assets.xcassets */; };
+		FF81339F1F135A3100AADE86 /* tvOS_directionalClickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF81339E1F135A3100AADE86 /* tvOS_directionalClickTests.swift */; };
+		FF8133AA1F135A3100AADE86 /* tvOS_directionalClickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8133A91F135A3100AADE86 /* tvOS_directionalClickUITests.swift */; };
+		FF8133B81F135AA200AADE86 /* DPadState.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF8133B71F135AA200AADE86 /* DPadState.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FF81339B1F135A3100AADE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8133811F135A3000AADE86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8133881F135A3000AADE86;
+			remoteInfo = "tvOS-directionalClick";
+		};
+		FF8133A61F135A3100AADE86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FF8133811F135A3000AADE86 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FF8133881F135A3000AADE86;
+			remoteInfo = "tvOS-directionalClick";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FF8133891F135A3000AADE86 /* tvOS-directionalClick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tvOS-directionalClick.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF81338C1F135A3000AADE86 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF81338E1F135A3000AADE86 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF8133911F135A3000AADE86 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF8133931F135A3000AADE86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF8133951F135A3000AADE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF81339A1F135A3100AADE86 /* tvOS-directionalClickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tvOS-directionalClickTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF81339E1F135A3100AADE86 /* tvOS_directionalClickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOS_directionalClickTests.swift; sourceTree = "<group>"; };
+		FF8133A01F135A3100AADE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8133A51F135A3100AADE86 /* tvOS-directionalClickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tvOS-directionalClickUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8133A91F135A3100AADE86 /* tvOS_directionalClickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvOS_directionalClickUITests.swift; sourceTree = "<group>"; };
+		FF8133AB1F135A3100AADE86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF8133B71F135AA200AADE86 /* DPadState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPadState.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF8133861F135A3000AADE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8133971F135A3100AADE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8133A21F135A3100AADE86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF8133801F135A3000AADE86 = {
+			isa = PBXGroup;
+			children = (
+				FF81338B1F135A3000AADE86 /* tvOS-directionalClick */,
+				FF81339D1F135A3100AADE86 /* tvOS-directionalClickTests */,
+				FF8133A81F135A3100AADE86 /* tvOS-directionalClickUITests */,
+				FF81338A1F135A3000AADE86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF81338A1F135A3000AADE86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF8133891F135A3000AADE86 /* tvOS-directionalClick.app */,
+				FF81339A1F135A3100AADE86 /* tvOS-directionalClickTests.xctest */,
+				FF8133A51F135A3100AADE86 /* tvOS-directionalClickUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF81338B1F135A3000AADE86 /* tvOS-directionalClick */ = {
+			isa = PBXGroup;
+			children = (
+				FF81338C1F135A3000AADE86 /* AppDelegate.swift */,
+				FF8133B71F135AA200AADE86 /* DPadState.swift */,
+				FF81338E1F135A3000AADE86 /* ViewController.swift */,
+				FF8133901F135A3000AADE86 /* Main.storyboard */,
+				FF8133931F135A3000AADE86 /* Assets.xcassets */,
+				FF8133951F135A3000AADE86 /* Info.plist */,
+			);
+			path = "tvOS-directionalClick";
+			sourceTree = "<group>";
+		};
+		FF81339D1F135A3100AADE86 /* tvOS-directionalClickTests */ = {
+			isa = PBXGroup;
+			children = (
+				FF81339E1F135A3100AADE86 /* tvOS_directionalClickTests.swift */,
+				FF8133A01F135A3100AADE86 /* Info.plist */,
+			);
+			path = "tvOS-directionalClickTests";
+			sourceTree = "<group>";
+		};
+		FF8133A81F135A3100AADE86 /* tvOS-directionalClickUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FF8133A91F135A3100AADE86 /* tvOS_directionalClickUITests.swift */,
+				FF8133AB1F135A3100AADE86 /* Info.plist */,
+			);
+			path = "tvOS-directionalClickUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF8133881F135A3000AADE86 /* tvOS-directionalClick */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8133AE1F135A3100AADE86 /* Build configuration list for PBXNativeTarget "tvOS-directionalClick" */;
+			buildPhases = (
+				FF8133851F135A3000AADE86 /* Sources */,
+				FF8133861F135A3000AADE86 /* Frameworks */,
+				FF8133871F135A3000AADE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tvOS-directionalClick";
+			productName = "tvOS-directionalClick";
+			productReference = FF8133891F135A3000AADE86 /* tvOS-directionalClick.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FF8133991F135A3100AADE86 /* tvOS-directionalClickTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8133B11F135A3100AADE86 /* Build configuration list for PBXNativeTarget "tvOS-directionalClickTests" */;
+			buildPhases = (
+				FF8133961F135A3100AADE86 /* Sources */,
+				FF8133971F135A3100AADE86 /* Frameworks */,
+				FF8133981F135A3100AADE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF81339C1F135A3100AADE86 /* PBXTargetDependency */,
+			);
+			name = "tvOS-directionalClickTests";
+			productName = "tvOS-directionalClickTests";
+			productReference = FF81339A1F135A3100AADE86 /* tvOS-directionalClickTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FF8133A41F135A3100AADE86 /* tvOS-directionalClickUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF8133B41F135A3100AADE86 /* Build configuration list for PBXNativeTarget "tvOS-directionalClickUITests" */;
+			buildPhases = (
+				FF8133A11F135A3100AADE86 /* Sources */,
+				FF8133A21F135A3100AADE86 /* Frameworks */,
+				FF8133A31F135A3100AADE86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FF8133A71F135A3100AADE86 /* PBXTargetDependency */,
+			);
+			name = "tvOS-directionalClickUITests";
+			productName = "tvOS-directionalClickUITests";
+			productReference = FF8133A51F135A3100AADE86 /* tvOS-directionalClickUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF8133811F135A3000AADE86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "David Cordero";
+				TargetAttributes = {
+					FF8133881F135A3000AADE86 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = L27TU8W49Z;
+						ProvisioningStyle = Automatic;
+					};
+					FF8133991F135A3100AADE86 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF8133881F135A3000AADE86;
+					};
+					FF8133A41F135A3100AADE86 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = FF8133881F135A3000AADE86;
+					};
+				};
+			};
+			buildConfigurationList = FF8133841F135A3000AADE86 /* Build configuration list for PBXProject "tvOS-directionalClick" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF8133801F135A3000AADE86;
+			productRefGroup = FF81338A1F135A3000AADE86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF8133881F135A3000AADE86 /* tvOS-directionalClick */,
+				FF8133991F135A3100AADE86 /* tvOS-directionalClickTests */,
+				FF8133A41F135A3100AADE86 /* tvOS-directionalClickUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF8133871F135A3000AADE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8133941F135A3000AADE86 /* Assets.xcassets in Resources */,
+				FF8133921F135A3000AADE86 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8133981F135A3100AADE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8133A31F135A3100AADE86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF8133851F135A3000AADE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF81338F1F135A3000AADE86 /* ViewController.swift in Sources */,
+				FF8133B81F135AA200AADE86 /* DPadState.swift in Sources */,
+				FF81338D1F135A3000AADE86 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8133961F135A3100AADE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF81339F1F135A3100AADE86 /* tvOS_directionalClickTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF8133A11F135A3100AADE86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF8133AA1F135A3100AADE86 /* tvOS_directionalClickUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FF81339C1F135A3100AADE86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8133881F135A3000AADE86 /* tvOS-directionalClick */;
+			targetProxy = FF81339B1F135A3100AADE86 /* PBXContainerItemProxy */;
+		};
+		FF8133A71F135A3100AADE86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FF8133881F135A3000AADE86 /* tvOS-directionalClick */;
+			targetProxy = FF8133A61F135A3100AADE86 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FF8133901F135A3000AADE86 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF8133911F135A3000AADE86 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF8133AC1F135A3100AADE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		FF8133AD1F135A3100AADE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF8133AF1F135A3100AADE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = L27TU8W49Z;
+				INFOPLIST_FILE = "tvOS-directionalClick/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dcordero.tvOS-directionalClick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		FF8133B01F135A3100AADE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = L27TU8W49Z;
+				INFOPLIST_FILE = "tvOS-directionalClick/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dcordero.tvOS-directionalClick";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		FF8133B21F135A3100AADE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tvOS-directionalClickTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dcordero.tvOS-directionalClickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvOS-directionalClick.app/tvOS-directionalClick";
+			};
+			name = Debug;
+		};
+		FF8133B31F135A3100AADE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "tvOS-directionalClickTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dcordero.tvOS-directionalClickTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tvOS-directionalClick.app/tvOS-directionalClick";
+			};
+			name = Release;
+		};
+		FF8133B51F135A3100AADE86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "tvOS-directionalClickUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dcordero.tvOS-directionalClickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "tvOS-directionalClick";
+			};
+			name = Debug;
+		};
+		FF8133B61F135A3100AADE86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = "tvOS-directionalClickUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dcordero.tvOS-directionalClickUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "tvOS-directionalClick";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF8133841F135A3000AADE86 /* Build configuration list for PBXProject "tvOS-directionalClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8133AC1F135A3100AADE86 /* Debug */,
+				FF8133AD1F135A3100AADE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF8133AE1F135A3100AADE86 /* Build configuration list for PBXNativeTarget "tvOS-directionalClick" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8133AF1F135A3100AADE86 /* Debug */,
+				FF8133B01F135A3100AADE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF8133B11F135A3100AADE86 /* Build configuration list for PBXNativeTarget "tvOS-directionalClickTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8133B21F135A3100AADE86 /* Debug */,
+				FF8133B31F135A3100AADE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FF8133B41F135A3100AADE86 /* Build configuration list for PBXNativeTarget "tvOS-directionalClickUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF8133B51F135A3100AADE86 /* Debug */,
+				FF8133B61F135A3100AADE86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF8133811F135A3000AADE86 /* Project object */;
+}
